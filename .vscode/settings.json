@@ -1,0 +1,39 @@
+{
+  // File associations
+  "files.associations": {
+    "*.html.erb": "erb",
+    "*.erb": "html"
+  },
+  
+  // ERB and HTML specific settings
+  "[erb]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "full",
+    "editor.formatOnSave": false
+  },
+  
+  "[html]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "full"
+  },
+  
+  // Auto-closing settings
+  "html.autoClosingTags": true,
+  "emmet.includeLanguages": {
+    "erb": "html"
+  },
+  
+  // Ruby specific settings
+  "[ruby]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "full"
+  },
+  
+  // General editor settings
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2
+}
